@@ -1,0 +1,15 @@
+.site-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.services {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 0px 10px;
+}

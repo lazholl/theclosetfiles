@@ -1,0 +1,26 @@
+.italic {
+  font-style: italic;
+}
+
+.p {
+  font-size: 1.15em;
+  margin-bottom: 32px;
+  line-height: 36px;
+}
+
+.h1 {
+  font-size: 3em;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 35px 0px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery__img {
+  width: 90vw;
+}

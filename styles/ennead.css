@@ -1,0 +1,54 @@
+.site-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.desc {
+  padding: 10px;
+  text-align: justify;
+}
+
+.bullet {
+  margin-right: 5vw;
+  font-size: 0.75em;
+}
+
+.bold {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.ennead {
+  padding: 30px 10vw;
+  align-self: flex-start;
+}
+
+.ennead__syllables {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.ennead__pronounciation {
+  font-size: 1.75em;
+}
+
+.ennead__part-of-speech {
+  font-style: italic;
+  font-size: 1.35em;
+  color: gray;
+}
+
+.ennead__definition {
+  font-size: 1.25em;
+}
+
+img {
+  max-width: 1200px;
+}

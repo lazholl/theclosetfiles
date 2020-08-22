@@ -1,0 +1,20 @@
+.site-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  max-width: 1200px;
+}
+
+.info__img {
+  width: 100%;
+  display: block;
+}
+
+.info__blurb {
+  background-color: rgb(46, 46, 46);
+  color: white;
+  padding: 50px;
+}

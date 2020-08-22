@@ -1,0 +1,55 @@
+.reuse-header {
+  padding: 53.5px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.reuse-header__logo {
+}
+
+.reuse-header__logo img {
+  max-width: 250px;
+}
+
+.reuse-header__logo:hover {
+  color: #bbbbbb;
+}
+
+.reuse-header__nav {
+  font-size: 1.25em;
+  padding: 10px 20px;
+}
+
+.reuse-header__link {
+  position: relative;
+  z-index: 10;
+}
+
+.reuse-header__link:not(:last-child)::after {
+  margin: 0px 15px;
+  content: "|";
+}
+
+@media (max-width: 1300px) {
+  .reuse-header {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .reuse-header__logo {
+    margin-bottom: 15px;
+  }
+
+  .reuse-header__nav {
+    margin-top: 15px;
+  }
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+}

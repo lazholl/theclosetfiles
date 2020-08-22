@@ -1,0 +1,79 @@
+.site-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about {
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.bios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__h2 {
+  font-size: 2.4em;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 30px 15px;
+}
+
+.bio__h2--end-align {
+  align-self: flex-end;
+}
+
+/* TODO: name this class better */
+.bio__portrait-text-container {
+  display: flex;
+  background-color: white;
+  color: black;
+  border-right: none;
+}
+
+.bio__portrait-text-container--reversed {
+  flex-direction: row-reverse;
+  border-left: none;
+  border-right: 5px solid white;
+}
+
+.bio__img {
+  width: 50%;
+  height: 100%;
+}
+
+.bio__text {
+  text-align: justify;
+  padding: 30px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .bios {
+    padding: 0px;
+  }
+
+  .bio__portrait-text-container {
+    flex-direction: column;
+  }
+
+  .bio__img {
+    width: 100%;
+  }
+
+  .bio__text {
+    width: 100%;
+  }
+}
